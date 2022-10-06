@@ -31,6 +31,7 @@ body{
     padding: 5px;
     background-color: rgb(88, 88, 88);
     border-radius: 5px;
+    cursor: pointer;
 }
 /* Button */
 #view span{
@@ -78,7 +79,7 @@ footer{
     z-index: 500;
     width: 100%;
     height: 100px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(39, 39, 39);
 }
 .center-botton-item{
     display: flex;
@@ -89,20 +90,30 @@ footer{
 .video-mic{
     display: flex;
     justify-content: space-evenly;
-    width: 200px;
+    min-width: 200px;
+    color: #fff;
 }
 .mic{
     display: flex;
     font-size: 40px;
-    /* DEBUG */
-    /* background-color: #fff; */
 }
-
 .arrow{
     display: flex;
     align-items: center;
     font-size: 15px;
-    margin-left: 5px;
+    margin-left: 15px;
+}
+.under-icon-txt{
+    margin-top: 5px;
+}
+.container-xs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Share Color */
+#share{
+    color: rgb(18, 175, 18);
 }
 .video{
     display: flex;
@@ -111,14 +122,18 @@ footer{
 .user-button{
     display: flex;
     justify-content: space-evenly;
+    min-width: 800px;
+    color: #fff;
 }
+/* call end */
 .close-conversation{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
+    padding: 0 5px;
+    min-width: 50px;
     height: 100%;
     border: solid black 1px;
-    background-color: rgb(118 118 118);
+    background-color: rgb(59, 59, 59);
     color: rgb(255 0 0);
 }
