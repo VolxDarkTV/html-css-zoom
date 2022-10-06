@@ -46,8 +46,8 @@ main{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    overflow: auto; 
     height: 100vh;
-    overflow: auto;    
 }
 .cards{
     width: 300px;
@@ -70,3 +70,7 @@ main{
     background-color: gray;
     color: #fff;
 }
+
+
+
+/* Action Bar */
