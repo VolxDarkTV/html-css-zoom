@@ -48,7 +48,7 @@ main{
     justify-content: space-evenly;
     flex-wrap: wrap;
     overflow: auto; 
-    height: calc(100vh - 200px);
+    height: calc(100vh - 170px);
 }
 .cards{
     width: 300px;
@@ -75,7 +75,6 @@ main{
 
 /* Action Bar */
 footer{
-    position: fixed;
     z-index: 500;
     width: 100%;
     height: 100px;
